@@ -1,0 +1,11 @@
+PROGRAM EEXP 
+VAR
+  a,b,left,right , result,c
+BEGIN 
+READ(a,b);
+WRITE(a,b); 
+left:=(a+b)+left; 
+right:=right+(a+b+c); 
+result:=left*right;
+WRITE(result)
+END.  
